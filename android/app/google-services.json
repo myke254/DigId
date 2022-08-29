@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "455995635523",
+    "project_id": "digitalidentity-78618",
+    "storage_bucket": "digitalidentity-78618.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455995635523:android:5f9fcacf73fc413820e1f6",
+        "android_client_info": {
+          "package_name": "com.digital.identity.digital_identity_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455995635523-3qa3rsdde2vg7r498gc8cnsn49e6ncg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9TZzmRfs7Ku5cZZuG1F4lX-uJ515jsOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455995635523-3qa3rsdde2vg7r498gc8cnsn49e6ncg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
