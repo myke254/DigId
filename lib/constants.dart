@@ -1,1 +1,1 @@
-String BaseUrl = 'https://aba7-41-89-229-17.eu.ngrok.io/api';
+String BaseUrl = 'https://d3cd-41-89-229-17.eu.ngrok.io/api';

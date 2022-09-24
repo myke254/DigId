@@ -36,9 +36,10 @@ class VoucheeModel {
     voucherRefId = json['voucherRefId'];
     voice = json['voice'];
     nationality = json['nationality'];
+    dateCreated = json['dateCreated'];
     dob = json['dob'];
     gender = json['gender'];
-   // digitalId = json['digitalId'];
+    digitalId = json['digitalId'];
     if (json['photos'] != null) {
       photos = <PhotosModel>[];
       json['photos'].forEach((v) {

@@ -210,6 +210,9 @@ class _LoginState extends State<Login> {
 
                                   preferences.setString('voucher', jsonEncode(value));
                                   if (value.idNumber == passwordController.text) {
+                                    setState((){
+                                      loggingIn = false;
+                                    });
                                   Navigator.of(context).push(
                                    MaterialPageRoute(
                                    builder: (context) => LandingPage()));

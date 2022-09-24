@@ -109,7 +109,7 @@ Future<bool>postToDb()async{
                   Padding(
                     padding: const EdgeInsets.only(top: 8.0, bottom: 8.0),
                     child: Text(
-                      "Enter verification code sent to your Email in the field provided",
+                      "Enter verification code sent to your Phone Number in the field provided",
                       style: GoogleFonts.varelaRound(
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
@@ -173,7 +173,7 @@ Future<bool>postToDb()async{
                                   data: jsonEncode(data),
                                 ).then((res){
                                   if(res.statusCode == 200){
-
+                                    print(res.data);
                                     setState((){
                                       success = true;
                                       verified = true;

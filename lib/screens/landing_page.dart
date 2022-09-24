@@ -210,9 +210,9 @@ class _LandingPageState extends State<LandingPage> {
                           ),
                            Divider(),
                           ListTile(
-                           /* onTap: () => Navigator.of(context).push(
+                            onTap: () => Navigator.of(context).push(
                                 MaterialPageRoute(
-                                    builder: ((context) => OtpVerificationPage()))),*/
+                                    builder: ((context) => MyVouchees()))),
                             leading: Icon(CupertinoIcons.checkmark_alt_circle),
                             title: Text('My Vouchees'),
                           )
